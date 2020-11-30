@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Página Letícia </title>
+	  <meta charset="UTF-8">
+	  <link rel="icon" type="image/ico" href="images/letra.ico"/>	  
+	   <style>
+	   h2{
+			color: gray;
+			font-family: Comic Sans MS, Comic Sans, cursiv;
+	   }
+	   #menu nav a{	   
+			font-size: 20px;
+			margin: 0px 10px;
+	   }
+	   
+	   #menu nav{
+	   		display: block
+			margin-left: auto;
+			margin-right: auto;
+	   }
+
+	   
+	   a{
+			text-decoration: none;			
+	   }
+	   
+	   a.hover{
+			background-color: rgb(236, 228, 228);
+	   }
+
+	   
+	   #titulo{
+			text-align:center;
+			color: gray;
+			font-family: Comic Sans MS, Comic Sans, cursiv;
+	   }
+   
+   #nome{
+		width: 300px
+		}
+   
+   #email{
+		width: 300px;
+   }
+   
+   #telefone{
+		width: 150px;
+   }
+   
+   #motivo{
+		width: 200px;
+   }
+   
+   #comentarios{
+		width: 300px;
+		height: 100px;
+   }
+
+   
+   form{
+		display: block;
+		font-family: Bradley Hand, cursive;
+		
+   }
+	   
+	   body{
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 2%;
+		margin-bottom: 5%;
+		background-color: rgb(245,222,179);		
+	   }
+	   
+	   p{
+			font-family: Bradley Hand, cursive;
+	   }
+	   
+	   hr{
+			width: 95%;
+	   }
+   
+		</style>
+   </head>
+  
+   <body>
+   <div id="menu">
+	<nav>
+		<a href="http://localhost:3000/">Pagina Principal</a>
+	</nav>
+	</div>
+	
+		  <h1 id="titulo"> Contato - Letícia Leal </h1>
+		  
+		   <div>
+   <form action="#" method="post">
+   <label>Nome: </label><input type="text" id="nome" name="nome" required><br /><br>
+   </div>
+   
+   <div>
+   <label>Telefone: </label><input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000" required><br><br>
+   </div>
+   
+   <div>
+   <label>E-mail: </label><input type="text" id="email" name="email" placeholder="exemplo@gmail.com" required><br><br>
+   </div>
+   
+   <div>
+   <p>Motivo do contato:</p>
+    <select name="motivo" id="motivo">  
+   <option value="pessoal">Comentários pessoais</option>
+   <option value="profissional">Comentários profissionais</option>
+   <option value="academico">Comentários acadêmicos</option>
+   <option value="outro">Outros</option>
+   </select><br /><br><br>
+   </div>
+   
+   <div>
+   <p>Comentários gerais:</p>
+   <input type="text" id="comentarios" name="comentarios" placeholder="Digite aqui"><br><br>
+   </div>
+   
+   <div>
+   <input type="submit" value="Enviar">
+   </div>
+   
+   </form>
+
+      </body>
